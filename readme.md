@@ -49,7 +49,7 @@ For Creating this calculator we have to create 5 different python files which ar
 **Now when you run main.py file, new small window open it will look like small calculator you can test it by entering number and calculating it.**
 
 **After complete execution of files you should have the following Output:**
-![Output Screen](/output/output.png)
+![Output Screen](/output/output.PNG)
 
 
 
