@@ -28,17 +28,23 @@ For Creating this calculator we have to create 5 different python files which ar
 * Now using tuples, define position of each and every button in the calculator layout.
 
 
-### 3. main.py
+### 3. main.py:
 * In this file we are going to import controller from controller.py file, model from evaluateExpression.
 * first defining the main function.
 * create the instance of Qapplication and then call it in function.
 * show GUI using GUI() and Show() functions.
 
-### 4. model.py
+### 4. model.py:
 * In this file we are creating model to handle the calculator's operation.
 * Now create the evaluateExpression function in this file.
 * Add the exception handling concept and test it by passing any expression.
 
+### 5. controller.py:
+* First we have to create a class named controller.
+* Create a constructor which call model and view parameters in it.
+* Create calculateResult function to evaluating result of expression.
+* Create buildExpression function to validating and building the expression.
+* Create connectSignals function to connect the expression through the buttons.
 
 
 
