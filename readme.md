@@ -44,7 +44,9 @@ For Creating this calculator we have to create 5 different python files which ar
 * Create buildExpression function to validating and building the expression.
 * Create connectSignals function to connect the expression through the buttons.
 
+**After creating these five files, To run these files Use anaconda to run main.py file. I prefer anaconda because PyQt5 library was already install in anaconda.**
 
+**Now when you run main.py file, new small window open it will look like small calculator you can test it by entering number and calculating it. 
 
 
 
