@@ -22,6 +22,11 @@ For Creating this calculator we have to create 5 different python files which ar
 
 * import Ot, QMainWindow, QLineEdit, QGridLayout, QPushButton, QVBoxLayout and Qwidget into view.py from PyQt5.QtWidgets.
 * Now, construct class GUI which calls constructor of QMainWindow.
+* Using different widget and layout functions, define the calculator's look and layout as needed.
+* Create a display bar at top for showing the entered digits in a calculator.
+* Now using tuples, define position of each and every button in the calculator layout.
+* Construct the grid layout of buttons perfectly.
+
 
 
 
