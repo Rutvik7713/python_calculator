@@ -2,7 +2,7 @@
 ## A GUI based Calculcator made In Python
 _____________________________________________________
 
-This assignemt was completed using various basic GUI features of Python. This model is perfect for understanding how the basic GUI features work in Python.
+This is an assignment work given by professor, the task is to create calculator in Python langauge Using different GUI features, this is a basic model to understand GUI application in python.
 
 For Creating this calculator we have to create 5 different python files which are following:<br>
 1. test.py <br>
@@ -20,13 +20,11 @@ For Creating this calculator we have to create 5 different python files which ar
 
 ### 2. view.py:
 
-* import Ot, QMainWindow, QLineEdit, QGridLayout, QPushButton, QVBoxLayout and Qwidget into view.py from PyQt5.QtWidgets.
-* Now, construct class GUI which calls constructor of QMainWindow.
+* Import following :Ot, QMainWindow, QLineEdit, QGridLayout, QPushButton, QVBoxLayout and Qwidget
+* Construct class GUI which calls constructor of QMainWindow.
 * Using different widget and layout functions, define the calculator's look and layout as needed.
 * Create a display bar at top for showing the entered digits in a calculator.
 * Construct the grid layout of buttons perfectly.
-* Now using tuples, define position of each and every button in the calculator layout.
-
 
 ### 3. main.py:
 * In this file we are going to import controller from controller.py file, model from evaluateExpression.
