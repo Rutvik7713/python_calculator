@@ -1,5 +1,5 @@
 
-# A GUI based Calculcator made In Python
+## A GUI based Calculcator made In Python
 _____________________________________________________
 
 This assignemt was completed using various basic GUI features of Python. This model is perfect for understanding how the basic GUI features work in Python.
@@ -11,9 +11,17 @@ For Creating this calculator we have to create 5 different python files which ar
 4. model.py <br>
 5. controller.py <br>
 
-## 1. test.py:
+### 1. test.py:
 
 * Import sys packages, QApplication, Qlabels and Qwidgit into test.py from pyQt5.
 * Now create an application using QApplication()
 * Give dimensions of the window of output screen by using Qwidget()
+* Now you can check output window by printing some message and then end the window using show().
+
+### view.py:
+
+* import Ot, QMainWindow, QLineEdit, QGridLayout, QPushButton, QVBoxLayout and Qwidget into view.py from PyQt5.QtWidgets.
+* Now, construct class GUI which calls constructor of QMainWindow.
+
+
 
