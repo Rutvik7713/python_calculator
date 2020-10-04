@@ -36,7 +36,7 @@ For Creating this calculator we have to create 5 different python files which ar
 * In this file we are creating model to handle the calculator's operation.
 * Now create the evaluateExpression function in this file.
 * Add the exception handling concept and test it by passing any expression.
-
+ 
 ### 5. controller.py:
 * First we have to create a class named controller.
 * Create a constructor which call model and view parameters in it.
@@ -46,7 +46,9 @@ For Creating this calculator we have to create 5 different python files which ar
 
 **After creating these five files, To run these files Use anaconda to run main.py file. I prefer anaconda because PyQt5 library was already install in anaconda.**
 
-**Now when you run main.py file, new small window open it will look like small calculator you can test it by entering number and calculating it. 
+**Now when you run main.py file, new small window open it will look like small calculator you can test it by entering number and calculating it.**
+
+
 
 
 
