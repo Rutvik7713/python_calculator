@@ -18,7 +18,7 @@ For Creating this calculator we have to create 5 different python files which ar
 * Give dimensions of the window of output screen by using Qwidget()
 * Now you can check output window by printing some message and then end the window using show().
 
-### view.py:
+### 2. view.py:
 
 * import Ot, QMainWindow, QLineEdit, QGridLayout, QPushButton, QVBoxLayout and Qwidget into view.py from PyQt5.QtWidgets.
 * Now, construct class GUI which calls constructor of QMainWindow.
@@ -26,6 +26,12 @@ For Creating this calculator we have to create 5 different python files which ar
 * Create a display bar at top for showing the entered digits in a calculator.
 * Now using tuples, define position of each and every button in the calculator layout.
 * Construct the grid layout of buttons perfectly.
+
+### 3. main.py
+* In this file we are going to import controller from controller.py file, model from evaluateExpression.
+* first defining the main function.
+
+
 
 
 
