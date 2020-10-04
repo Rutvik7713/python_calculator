@@ -24,14 +24,21 @@ For Creating this calculator we have to create 5 different python files which ar
 * Now, construct class GUI which calls constructor of QMainWindow.
 * Using different widget and layout functions, define the calculator's look and layout as needed.
 * Create a display bar at top for showing the entered digits in a calculator.
-* Now using tuples, define position of each and every button in the calculator layout.
 * Construct the grid layout of buttons perfectly.
+* Now using tuples, define position of each and every button in the calculator layout.
+
 
 ### 3. main.py
 * In this file we are going to import controller from controller.py file, model from evaluateExpression.
 * first defining the main function.
 * create the instance of Qapplication and then call it in function.
 * show GUI using GUI() and Show() functions.
+
+### 4. model.py
+* In this file we are creating model to handle the calculator's operation.
+* Now create the evaluateExpression function in this file.
+* Add the exception handling concept and test it by passing any expression.
+
 
 
 
